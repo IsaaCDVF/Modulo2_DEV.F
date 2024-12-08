@@ -1,0 +1,58 @@
+*{/* Esto da estilo universal a una pagina... Tambien se puede usar para quitar elementos predeterminados a una pagina nueva */
+    margin: 0;
+    padding: 0;
+}
+ p{
+    color: aqua;
+ }
+h1,h2,h3,h4{/* Para llamr directamente a la etiqueta */
+    color: red;
+}
+.title{ /* Para llamar una clase */
+    color: green;
+}
+#unique-title{ /* Para llamar un "ID" */
+    color: blue;
+}
+.container-1{
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.container-2{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px; 
+    display: inline-block; 
+}
+div p{
+    color: darkviolet;
+}
+
+.special-image{
+    width: 300px;
+    border-radius: 30px;
+    transition: 250ms;
+}
+.special-image:hover{
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.my-button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 200ms;
+}
+.my-button:hover{
+    background-color: rgb(48, 77, 4);
+    color: white;
+    border:1px solid rgba(0, 0, 0, 0);
+}
+.container-2 p{
+    color: wh ;
+}
+
+

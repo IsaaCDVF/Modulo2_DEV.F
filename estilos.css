@@ -1,0 +1,21 @@
+#unique-div #unique-title{
+    color: crimson;
+}
+div h1{
+    color: aqua;
+}
+h1{
+    color: chartreuse;
+}
+
+.my-title{
+color: violet;
+}
+h1{
+    color: sienna;
+}
+/*
+h1{
+    color: darkslategray !important;
+    font-style: italic !important;
+} */ 
