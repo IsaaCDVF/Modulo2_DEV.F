@@ -17,22 +17,29 @@
     font-weight: 200; /* Ancho de la fuente */
     text-align: justify;
 }
-
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.5rem; /* Esto da espacio entre las tarjetas */
+}
 .card{
     background-color: black;
     color: white;
     width: 25rem;
+    height: auto;/* La aultura se ajustara segun el contenido */
     padding: 2rem 3rem;
     margin: 2.5rem;
     border-radius: 10px;
     box-sizing: border-box;
+    flex-grow: 1; /* Asegura que el contenido dentro del card se apile verticalmente */
     display: inline-block;
+    flex-direction: column;
 
 }
 .card-image-container{
     width: 100%;
-    padding: 2rem;
-
+    padding: 0;
 }
 .card-image-container img{
     width: 100%; /* Usa el 100% del contenedor */
@@ -48,7 +55,6 @@
     transition: 200ms;
     font-style: italic;
     font-weight: 500;
-    margin: 1rem;
 }
 .card button:hover{
     border: 1px solid black;
