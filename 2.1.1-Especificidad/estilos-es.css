@@ -1,0 +1,19 @@
+#unique-div #unique-title{ /* Este posee mas especificidad  */
+color: crimson;
+}
+ div h1{
+    color: cornflowerblue; /* A diferencia de este */
+ } 
+
+ /* ------------------------------------- */
+   /* A pesar de tener la misma especificidad que el anterior, este estilo predominara por la regla de "Cascada" */
+   /* Si quitamos el "div" se aplicara el estilo anterior, ya que ese tendra mas especificidad */
+   
+ 
+ h1{ 
+    color: greenyellow;
+ }
+ .my-title{
+    color: violet;
+ }
+ 
